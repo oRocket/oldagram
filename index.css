@@ -16,11 +16,18 @@ header {
     background-color: #FFFFFF;
 }
 
-.container {
+.container,
+.profile,
+.hero,
+.icons,
+.posts {
     width: 500px;
-    height: 100px;
     margin: 0 auto;
     display: flex;
+}
+
+.container {
+    height: 100px;
     justify-content: space-between;
     border-bottom: 2px solid #C6C6C6;
 }
@@ -42,10 +49,7 @@ header {
 }
 
 .profile {
-    width: 500px;
     height: 80px;
-    margin: 0 auto;
-    display: flex;
 }
 
 .profile-picture {
@@ -53,16 +57,11 @@ header {
 }
 
 .hero {
-    width: 500px;
     display: block;
-    margin: 0 auto;
 }
 
 .icons {
     background-color: #FFFFFF;
-    width: 500px;
-    margin: 0 auto;
-    display: flex;
 }
 
 p {
@@ -89,9 +88,7 @@ p {
 }
 
 .posts {
-    width: 500px;
     height: 100px;
-    margin: 0 auto;
     display: inline-block;
     text-align: left;
 }
@@ -102,4 +99,30 @@ p {
 
 .bold-text {
     font-weight: bolder;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 760px) {
+    .container,
+    .profile,
+    .hero,
+    .icons,
+    .posts {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .container {
+        height: 70px;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texts {
+        margin: 10px 20px;
+    }
 }
