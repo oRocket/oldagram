@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #C6C6C6;
+    /* width: 500px; */
+    /* text-align: center; */
+}
+
+header {
+    display: block;
+}
+
+.container,
+.profile,
+.posts {
+    background-color: #FFFFFF;
+}
+
+.container {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+.logo,
+.user-avatar {
+    margin: auto 20px;
+}
+
+.logo {
+    width: 130px;
+    height: 60px;
+}
+
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.profile {
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.profile-picture {
+    padding: auto;
+}
+
+.hero {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.icons {
+    background-color: #FFFFFF;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    margin: 20px 5px 0;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: red;
+}
+
+.heart {
+    margin-left: 20px;
+}
+
+.comment {
+    text-align: center;
+}
+
+.posts {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.texts {
+    margin-left: 20px;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
